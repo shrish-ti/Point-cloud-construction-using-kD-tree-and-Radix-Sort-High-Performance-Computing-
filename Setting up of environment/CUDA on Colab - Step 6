@@ -1,0 +1,2 @@
+#Load extension
+%load_ext nvcc_plugin
