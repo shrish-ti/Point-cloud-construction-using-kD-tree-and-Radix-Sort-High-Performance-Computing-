@@ -1,0 +1,2 @@
+#Download extension to run NVCC from notebook cells
+!pip install git+git://github.com/andreinechaev/nvcc4jupyter.git
