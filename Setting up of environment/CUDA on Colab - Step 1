@@ -1,4 +1,5 @@
 #Setup hardware accelerator as GPU
+#Refresh cloud instance
 !apt-get --purge remove cuda nvidia* libnvidia-*
 !dpkg -l | grep cuda- | awk '{print $2}' | xargs -n1 dpkg --purge
 !apt-get remove cuda-*
